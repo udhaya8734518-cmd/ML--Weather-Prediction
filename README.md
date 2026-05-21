@@ -11,10 +11,10 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. 1.Open Jupyter Notebook on your computer.
+2. Click New → Python 3 Notebook.
+3. Type your Python code in a cell.
+4. Press Shift + Enter to run the code
 
 ## Program:
 ```
@@ -53,7 +53,7 @@ rmse_pollution = np.sqrt(mean_squared_error(y_test, pollution_pred))
 r2_pollution = r2_score(y_test, pollution_pred)
 accuracy_pollution = r2_pollution * 100
 
-print(" Pollution Prediction (PM2.5)")
+print("🏭 Pollution Prediction (PM2.5)")
 print("Accuracy (%):", accuracy_pollution)
 
 print("R2 Score:", r2_pollution)
@@ -80,7 +80,7 @@ temp_pred = temp_model.predict(X_test)
 rmse_temp = np.sqrt(mean_squared_error(y_test, temp_pred))
 r2_temp = r2_score(y_test, temp_pred)
 accuracy_temp = r2_temp * 100
-print("\n Temperature Prediction")
+print("\n🌡️ Temperature Prediction")
 print("Accuracy (%):", accuracy_temp)
 print("RMSE:", rmse_temp)
 print("R2 Score:", r2_temp)
@@ -103,7 +103,7 @@ energy_pred = energy_model.predict(X_test)
 rmse_energy = np.sqrt(mean_squared_error(y_test, energy_pred))
 r2_energy = r2_score(y_test, energy_pred)
 accuracy_energy = r2_energy * 100
-print("\n Energy Prediction (TSR)")
+print("\n⚡ Energy Prediction (TSR)")
 print("Accuracy (%):", accuracy_energy)
 
 
@@ -113,6 +113,7 @@ print("R2 Score:", r2_energy)
 ```
 
 ## Output:
+<img width="544" height="424" alt="image" src="https://github.com/user-attachments/assets/31d053aa-1c9b-4af4-9a30-e88825b230ac" />
 
 
 ## Result:
